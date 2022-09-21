@@ -1,0 +1,11 @@
+.niceheading {
+color: blue;
+background-color: rgba(168, 75, 75, 0.055);
+text-align: center;
+margin-top: 500px;
+font-family: Georgia;
+padding: 100px;
+display: block;
+border:3px solid blue;
+border-radius:1px
+}
