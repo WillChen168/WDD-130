@@ -2,29 +2,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Bungee+Spice&family=Roboto+Slab:wght@500&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #4392f1   ;
-  --secondary-color: #d37770 ;
-  --accent1-color: #e3ebff;
-  --accent2-color: #e7f0ff;
+  --primary-color: #4392F1  ;
+  --secondary-color: #000000 ;
+  --accent1-color:  #E3FFF4;
+  --accent2-color: #0066FF;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Roboto";
-  --paragraph-font: Bungee Spice, Helvetica, sans-serif;
+  --heading-font: "Roboto Slab";
+  --paragraph-font: Abyssinica SIL, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: rgb(24, 71, 201);  /* headlines on a white background */ 
   --headline-color-on-color: #FFFFFF; /* headlines on a colored background */ 
-  --paragraph-color-on-white: rgb(194, 33, 33); /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #FFFFFF(194, 33, 33); /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
   --paragraph-background-color: #000000  ;
-  --nav-link-color: #0f47e0;
-  --nav-background-color: #d44f4f;
+  --nav-link-color: white;
+  --nav-background-color: green;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #3687c2;
+  --nav-hover-background-color: black;
 }
 
 
@@ -162,4 +162,7 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+td{
+  color: Red;
 }
