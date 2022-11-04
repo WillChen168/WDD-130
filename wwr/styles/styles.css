@@ -33,8 +33,9 @@ nav a:hover{
     background-color: bisque;
     padding: 35px;
     grid-column: 6/10;
-    grid-row: 5/8;
+    grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    
 
 }
 footer{
@@ -160,8 +161,10 @@ h2{
 footer.social img{
     padding-top: 15px;
 }
-.river.card, .camping-card, .rapids-card{
+.rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+    margin: 50px auto;
+    width: 60%;
 }
 .card-img{
     border: solid black 10px;
@@ -175,6 +178,48 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+#background{
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;   
+}
+
+footer{
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
