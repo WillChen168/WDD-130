@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    left: 47%;
+}
+.img{
+    width: 100%;
+}
