@@ -1,3 +1,14 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam&family=Libre+Baskerville&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -10,9 +21,21 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
-    
 }
-
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #396E94;
+    font-family: 'Libre Baskerville', serif;
+}
+a:hover,
+a:active{
+    color: #A43312;
+}
+nav>a:link,
+nav>a:visited{
+    font-size: 40px;
+}
 #p1grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,15 +44,17 @@ nav{
 
 body{
     color:black;
-    background-color: aquamarine;
+    background-color: #E7C24F;
 }
 main img{
     width: 100%;
 }
 h1{
+    font-size: 60px;
     grid-column: 1/3;
     grid-row: 1/2;
     text-align: center;
+    font-family: 'Satisfy';
 }
 
 #p1img1{
@@ -41,9 +66,21 @@ h1{
     grid-row: 3/4;
 }
 p{
+   
+    font-family: 'Kalam';
     font-size: 40px;
-    line-height: 100px;
+    line-height: 50px;
+    padding: 25px 50px;
 }
 
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    border: black 1px solid;
+}
 
 
