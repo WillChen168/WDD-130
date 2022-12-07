@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #396E94;
+}
+a:hover,
+a:active{
+    color: #A43312;
+}
+nav>a:link,
+nav>a:visited{
+    font-size: 40px;
+}
+
+body{
+    color:black;
+    background-color: #E7C24F;
+}
+#p3img1{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #A43312;
+}
+p{
+    font-family: 'Kalam';
+    margin-top: 180px;
+    font-size: 47px;
+    line-height: 50px;
+    padding: 25px 50px;
+    margin-top: 90px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    border: black 1px solid;
+}
